@@ -1,4 +1,4 @@
-# End to End Chatbot with ML Model
+# End to End Chatbot
 ## Overview
 An End to End Chatbot that is deployed can handle conversations from start to finish on its own, without human interference. What makes it end to end is that the chatbot will be deployed to a web application with an interface that is pre-designed. In this project, I made use of the NLTK NLP Toolkit to handle user requests and a Logistic Regression Linear ML model and a TfidVectorizer for text feature extraction. This chatbot will be able to display personal insensitive information about Me, it is some sort of an owner-introducing bot. I deployed the chatbot using two methods: the ```streamlit``` library and ```dash``` framework. To run the deployed program using streamlit, enter the command ```streamlit run main.py``` and you can start chatting with the bot. For the dash framework, run the program ad the web application overview will automatically be displayed. Another added feature for the dash framework is the ability to save chat history.
 ## Data
