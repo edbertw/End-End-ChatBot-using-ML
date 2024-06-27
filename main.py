@@ -149,7 +149,7 @@ def update_output(click,text):
     if click > 0:
         response = chat(text)
         user = [html.H5(text, style = {"text-align": "left"})]
-        bot = [html.H5(html.I(i), style = {"text-align": "right"}) for i in response]
+        bot = [html.H5(html.I(i), style = {"text-align": "right", "display": "inline"}) for i in response]
         history = user + bot + [html.Hr()] + history
         return history
     else:
